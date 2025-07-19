@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Heritage Goa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Heritage Goa</h1>
+                <p>Preserving Our Cultural Legacy</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="heritage-sites.html">Heritage Sites</a></li>
+                    <li><a href="preservation.html">Preservation Efforts</a></li>
+                    <li class="active"><a href="get-involved.html">Get Involved</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1585506942812-e72b29cef752?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <p>Join us in preserving Goa's heritage for future generations</p>
+        </div>
+    </section>
+
+    <section class="involvement-options">
+        <div class="container">
+            <h2>Ways to Contribute</h2>
+            <div class="options-grid">
+                <div class="option-card">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Volunteer</h3>
+                    <p>Join our team of volunteers working on documentation, restoration, and community outreach programs.</p>
+                    <a href="#" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="option-card">
+                    <i class="fas fa-donate"></i>
+                    <h3>Donate</h3>
+                    <p>Financial contributions help fund critical preservation projects and educational programs.</p>
+                    <a href="#" class="btn-secondary">Donate Now</a>
+                </div>
+                <div class="option-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Adopt a Heritage Site</h3>
+                    <p>Individuals or organizations can sponsor the maintenance of specific heritage sites.</p>
+                    <a href="#" class="btn-secondary">View Sites</a>
+                </div>
+                <div class="option-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Spread Awareness</h3>
+                    <p>Help raise awareness by sharing our content and organizing local heritage events.</p>
+                    <a href="#" class="btn-secondary">Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="volunteer-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2>Volunteer Registration</h2>
+                <p>Fill out the form below to join our volunteer network</p>
+                <form id="volunteerForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location in Goa</label>
+                        <input type="text" id="location" name="location" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Areas of Interest</label>
+                        <select id="interest" name="interest" multiple>
+                            <option value="documentation">Documentation</option>
+                            <option value="restoration">Restoration Work</option>
+                            <option value="education">Education Programs</option>
+                            <option value="events">Event Organization</option>
+                            <option value="fundraising">Fundraising</option>
+                            <option value="research">Research</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="availability">Availability</label>
+                        <select id="availability" name="availability">
+                            <option value="weekdays">Weekdays</option>
+                            <option value="weekends">Weekends</option>
+                            <option value="flexible">Flexible</option>
+                            <option value="project">Project Basis</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Why do you want to volunteer with us?</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="donation-section">
+        <div class="container">
+            <h2>Make a Donation</h2>
+            <p>Your contribution will help preserve Goa's heritage for future generations</p>
+            <div class="donation-options">
+                <div class="donation-option">
+                    <h3>₹500</h3>
+                    <p>Supports documentation of one heritage structure</p>
+                    <button class="btn-secondary">Donate</button>
+                </div>
+                <div class="donation-option">
+                    <h3>₹1,000</h3>
+                    <p>Funds educational materials for 10 students</p>
+                    <button class="btn-secondary">Donate</button>
+                </div>
+                <div class="donation-option">
+                    <h3>₹5,000</h3>
+                    <p>Contributes to restoration materials</p>
+                    <button class="btn-secondary">Donate</button>
+                </div>
+                <div class="donation-option">
+                    <h3>Custom Amount</h3>
+                    <input type="number" placeholder="Enter amount">
+                    <button class="btn-secondary">Donate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Heritage Goa</h3>
+                    <p>Dedicated to preserving and promoting the rich cultural heritage of Goa through documentation, education, and community engagement.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="heritage-sites.html">Heritage Sites</a></li>
+                        <li><a href="preservation.html">Preservation Efforts</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@heritagegoa.org</p>
+                    <p><i class="fas fa-phone"></i> +91 832 1234567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Heritage Goa. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
